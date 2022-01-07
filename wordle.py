@@ -70,10 +70,9 @@ def update_possible_words(possible_words, guess, feedback):
       for i in constraints['hard_hits'][char]:
         if word[i] != guess[i]:
           possible = False
-        else: 
-          pass
-      if possible == False:
-        pass
+          
+    if possible == False:
+      pass
 
     # if it doesnt miss a hard hit, test e/ character
     else:
